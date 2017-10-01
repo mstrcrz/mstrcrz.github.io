@@ -5,7 +5,7 @@ body {
   background: #000;
 }
 a {
-  color: #008080;
+  color: #ff0;
 }
 .cover {
   position: absolute;
@@ -16,19 +16,19 @@ a {
   height: 100%;
 }
 .cover .life {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  line-height: 26px;
+  font-size: 36px;
+  line-height: 40px;
   text-align: center;
 }
 .cover .hi {
-  position: relative;
-  bottom: 50%;
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -38,7 +38,7 @@ a {
   text-align: center;
 }
 .cover .hi span {
-  color: #008080;
+  color: #ff0;
   cursor: pointer;
   text-decoration: underline;
 }
